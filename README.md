@@ -4,9 +4,11 @@
 Lazy Serialize is an alternative to ActiveRecord's `serialize` method which does not serialize each column until the first call to the attribute. 
 
 # Install
+Use git source as its not yet published to rubygems
+
 ```ruby
 # Gemfile
-gem 'lazy_serialize'
+gem 'lazy_serialize', git: 'https://github.com/westonganger/lazy_serialize.git'
 ```
 
 # Usage
