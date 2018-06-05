@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = 'lazy_serialize'
   s.version     =  LazySerialize::VERSION
   s.author	= "Weston Ganger"
-  s.email       = 'westonganger@gmail.com'
+  s.email       = 'weston@westonganger.com'
   s.homepage 	= 'https://github.com/westonganger/lazy_serialize'
   
   s.summary     = "Lazy Serialize is an alternative to ActiveRecord's `serialize` method which does not serialize each column until the first call to the attribute."
